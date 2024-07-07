@@ -1,0 +1,10 @@
+#+TITLE: Loading Strategy
+#+DATE: 2024-07-06
+* Strategy
+
+Enumerate all cffi library symbols needed by lispbuilder-sdl related libraries.
+Load all of those libraries from a source location.
+
+* Ubiquitous Location
+
+The location of the library is selected by a Ubiquitous key.
