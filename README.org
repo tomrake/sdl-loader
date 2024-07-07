@@ -1,5 +1,24 @@
-* My Project Skel
+* sdl_loader
 
-This is a [[https://gohugo.io/][Hugo static site generator]] for github pages.
+* SDL 1.2
 
-See [[https://tomrake.github.io/my-project-skel/][This Link]] to see this static site.
+SDL 1.2 which was last updated 2013 had been used to graphic expression is Common Lisp.
+The Common Lisp binding for SDL 1.2 were provied by the lispbuilder package.
+Many of the smaller effort were not tested on Windows.
+
+As an example [[https://github.com/sebity/the-invaders]] is a version of the space invaders game.
+I forked this code and attempted to get the game running.
+
+The code [[https://github.com/privet-kitty/dufy]] has an example which could run with SDL 1.2.
+
+* SDL 2
+
+The windows support for SDL 2 has a spotted history.
+When I attemped to update the-invaders for SDL 2, I stopped because of the difficulty with the lisp interface code on Windows.
+
+
+* First attempt
+
+- Provide a location for the last binary release of SDL 1.2
+- Attempt to run the-invaders.
+- Go through the lisp-builders examples for sdl, sdl_image, sdl_mixer and sdl_ttf

@@ -8,3 +8,10 @@ Load all of those libraries from a source location.
 * Ubiquitous Location
 
 The location of the library is selected by a Ubiquitous key.
+
+
+* Testing strategy
+
+- does the-invaders work?
+- do the lispbuilder examples work
+  
