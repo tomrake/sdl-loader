@@ -1,0 +1,5 @@
+#+TITLE: Loading by stuffing first
+#+DATE: 2024-07-06T23:44:01-04:00
+
+An expermental project to try the stuffing first process.
+[[http://tomrake.github.io/sdl-loader]]

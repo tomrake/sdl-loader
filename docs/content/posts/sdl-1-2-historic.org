@@ -1,0 +1,26 @@
+#+TITLE: SDL Compiled Libraries
+#+DATE: 2024-07-05T22:24:18-04:00
+
+* SDL
+
+[[https://www.libsdl.org/release/]]
+
+The last release was [[https://www.libsdl.org/release/SDL-1.2.15-win32-x64.zip][SDL-1.2.15-win32-x64.zip]] on 2013-08-17 03:59	
+
+* SDL_image
+
+[[https://www.libsdl.org/projects/SDL_image/release/]]
+
+The last release was [[https://www.libsdl.org/projects/SDL_image/release/SDL_image-1.2.12-win32-x64.zip][SDL_image-1.2.12-win32-x64.zip]] on 2013-08-17 03:54
+
+* SDL_mixer
+
+[[https://www.libsdl.org/projects/SDL_mixer/release/]]
+
+The last releas was [[https://www.libsdl.org/projects/SDL_mixer/release/SDL_mixer-1.2.12-win32-x64.zip][SDL_mixer-1.2.12-win32-x64.zip]] on 2013-08-17 03:55
+
+* SDL_ttf
+
+[[https://www.libsdl.org/projects/SDL_ttf/release/]]
+
+The last release was [[https://www.libsdl.org/projects/SDL_ttf/release/SDL_ttf-2.0.11-win32-x64.zip][SDL_ttf-2.0.11-win32-x64.zip]] on 2013-08-17 03:56	
