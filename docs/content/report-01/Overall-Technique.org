@@ -1,4 +1,4 @@
-#+TITLE: Goals
+#+TITLE: Overall Technique
 #+DATE: 2024-07-07T17:49:00-04:00
 #+WEIGHT: 20
 * Overall Technique
