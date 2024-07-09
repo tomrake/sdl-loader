@@ -6,6 +6,8 @@
 
 (in-package #:setup-sdl-1-2)
 
+(ubiquitous:restore)
+
 (let ((lib-path(ubiquitous:value :sdl-last) ))
   (when lib-path
     (pushnew lib-path cffi:*foreign-library-directories* :test #'equal )))
