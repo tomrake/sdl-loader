@@ -1,5 +1,17 @@
 #+TITLE: Loading by stuffing first
 #+DATE: 2024-07-06T23:44:01-04:00
+#+LASTMOD:2024-07-09T10:32:00-04:00
 
-An expermental project to try the stuffing first process.
-[[http://tomrake.github.io/sdl-loader]]
+An experimental project to try the stuffing first process.
+The Github project is  [[https://github.com/tomrake/sdl-loader]].
+
+The result of this experiment was very successful.
+
+The procedure I used needs to be explained in detail.
+
+- The goal and purpose.
+- The overall technique used.
+- Locate the release libraries.
+- Prepare to iterate releases.  
+- Prepare the example distribution.
+- Describe the testing cases.

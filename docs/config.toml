@@ -1,4 +1,4 @@
-baseURL = 'https://tomrake.github.io/my-project-skel/'
+baseURL = 'https://tomrake.github.io/sdl-loader/'
 languageCode = 'en-us'
 title = 'SDL 1.2 release loading.'
 theme = "m10c"
