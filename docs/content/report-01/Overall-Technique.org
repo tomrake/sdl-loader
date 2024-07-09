@@ -1,0 +1,26 @@
+#+TITLE: Goals
+#+DATE: 2024-07-07T17:49:00-04:00
+#+WEIGHT: 20
+* Overall Technique
+The standard interface for SDL 1.2 in Windows is [[https://github.com/lispbuilder/lispbuilder][lispbuilder]] code.
+
+Gather the last release of SDL 1.2 and place all files into a single directory.
+I just untared the files and copied them all to a single directory, one README was overwritten and zlib1 was included in two for released tar files
+
+Add the directory to the [[https://cffi.common-lisp.dev/manual/html_node/_002aforeign_002dlibrary_002ddirectories_002a.html][cffi:*foreign-library-directories*]].
+
+The lisp system designed to do this is [[https://github.com/tomrake/sdl-loader/blob/main/setup-sdl-1-2.asd][setup-sdl-1-2]] in the sdl-loader repo.
+
+** Configure the experimental pathname.
+
+Since this is an experimental example you need to configure setup-sdl-1-2 with the pathname where the 1.2 release has been copied to.
+
+#+begin_src lisp
+  (ql:quickload 'ubiquitous)
+  (setf (ubiquitous:value :sdl-last) #P"your-pathname")
+#+end_src
+
+* Stuffing the directories
+
+Ensure the setup-sdl-1-2 package is loaded before the lispbuilder code.
+By stuffing our library location first, we allow lispbuilder code to find our downloaded dll files.
