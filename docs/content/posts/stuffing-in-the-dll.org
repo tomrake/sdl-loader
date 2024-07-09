@@ -15,3 +15,4 @@ The procedure I used needs to be explained in detail.
 - Prepare to iterate releases.  
 - Prepare the example distribution.
 - Describe the testing cases.
+- Write-up all results

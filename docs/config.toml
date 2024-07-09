@@ -37,3 +37,8 @@ author = "Tom Rake"
  name = "About"
  url = "/about/"
  weight = "20"
+
+[[menu.main]]
+ name = "Report 1"
+ url = "/report-01/"
+ weight = "30"
