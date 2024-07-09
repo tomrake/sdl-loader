@@ -1,0 +1,35 @@
+#+TITLE: Locate the release libraries.
+#+DATE: 2024-07-09T19:16:00-04:00
+#+WEIGHT: "40"
+
+After some Google searches for SDL releases, I collected the following information on SDL releases.
+SDL attempts to hide much of 1.2 information to encourage 2.0 and now 3.0 use.
+
+
+* SDL
+
+[[https://www.libsdl.org/release/]]
+
+The last release was [[https://www.libsdl.org/release/SDL-1.2.15-win32-x64.zip][SDL-1.2.15-win32-x64.zip]] on 2013-08-17 03:59	
+
+* SDL_image
+
+[[https://www.libsdl.org/projects/SDL_image/release/]]
+
+The last release was [[https://www.libsdl.org/projects/SDL_image/release/SDL_image-1.2.12-win32-x64.zip][SDL_image-1.2.12-win32-x64.zip]] on 2013-08-17 03:54
+
+* SDL_mixer
+
+[[https://www.libsdl.org/projects/SDL_mixer/release/]]
+
+The last release was [[https://www.libsdl.org/projects/SDL_mixer/release/SDL_mixer-1.2.12-win32-x64.zip][SDL_mixer-1.2.12-win32-x64.zip]] on 2013-08-17 03:55
+
+* SDL_ttf
+
+[[https://www.libsdl.org/projects/SDL_ttf/release/]]
+
+The last release was [[https://www.libsdl.org/projects/SDL_ttf/release/SDL_ttf-2.0.11-win32-x64.zip][SDL_ttf-2.0.11-win32-x64.zip]] on 2013-08-17 03:56	
+
+
+* Assembling the files for use
+I just untared the files and copied them all to a single directory, one README was overwritten and zlib1 was included in two for released tar files.
