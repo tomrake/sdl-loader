@@ -10,14 +10,7 @@ Add the directory to the [[https://cffi.common-lisp.dev/manual/html_node/_002afo
 
 The lisp system designed to do this is [[https://github.com/tomrake/sdl-loader/blob/main/setup-sdl-1-2.asd][setup-sdl-1-2]] in the sdl-loader repo.
 
-** Configure the experimental pathname.
 
-Since this is an experimental example you need to configure setup-sdl-1-2 with the pathname where the 1.2 release has been copied to.
-
-#+begin_src lisp
-  (ql:quickload 'ubiquitous)
-  (setf (ubiquitous:value :sdl-last) #P"your-pathname")
-#+end_src
 
 * Stuffing the directories
 

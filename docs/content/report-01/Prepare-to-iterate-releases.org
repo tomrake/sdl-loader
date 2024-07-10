@@ -1,0 +1,13 @@
+#+TITLE: Prepare to iterate releases.
+#+DATE: 2024-07-09T19:57:00-04:00
+#+WEIGHT: 40
+
+* Configure the experimental pathname.
+
+The experimental pathname stuffer needs to have an easily changeable path.
+I have used the [[https://github.com/Shinmera/ubiquitous][ubiquitous]] system to configure other pathname options in the past, so I use it again.
+
+#+begin_src lisp
+  (ql:quickload 'ubiquitous)
+  (setf (ubiquitous:value :sdl-last) #P"your-pathname")
+#+end_src
