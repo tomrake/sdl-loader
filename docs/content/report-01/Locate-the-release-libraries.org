@@ -1,6 +1,6 @@
 #+TITLE: Locate the release libraries.
 #+DATE: 2024-07-09T19:16:00-04:00
-#+WEIGHT: "40"
+#+WEIGHT: 40
 
 After some Google searches for SDL releases, I collected the following information on SDL releases.
 SDL attempts to hide much of 1.2 information to encourage 2.0 and now 3.0 use.

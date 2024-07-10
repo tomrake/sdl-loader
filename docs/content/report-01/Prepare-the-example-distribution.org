@@ -1,0 +1,10 @@
+#+TITLE: Prepare the example distribution.
+#+DATE: 2024-07-09T20:19:00-04:00
+#+WEIGHT: 50
+
+This is a directory of all the various SDL dll-files that represent an entire SDL release.
+I used the last released versions of SDL 1.2 zipped releases.
+I downloaded the zips, unzipping the contents into a single combined directory.
+Two of the readme files had the same name. zlib1 was present twice.
+
+The pathname of the combined directory is set to the ubiquitous value for :sdl-last.
