@@ -31,5 +31,3 @@ The last release was [[https://www.libsdl.org/projects/SDL_mixer/release/SDL_mix
 The last release was [[https://www.libsdl.org/projects/SDL_ttf/release/SDL_ttf-2.0.11-win32-x64.zip][SDL_ttf-2.0.11-win32-x64.zip]] on 2013-08-17 03:56	
 
 
-* Assembling the files for use
-I just untared the files and copied them all to a single directory, one README was overwritten and zlib1 was included in two for released tar files.

@@ -11,3 +11,5 @@ I have used the [[https://github.com/Shinmera/ubiquitous][ubiquitous]] system to
   (ql:quickload 'ubiquitous)
   (setf (ubiquitous:value :sdl-last) #P"your-pathname")
 #+end_src
+
+You will set this value to the pathname of the combined directory once the example distribution is prepared.
