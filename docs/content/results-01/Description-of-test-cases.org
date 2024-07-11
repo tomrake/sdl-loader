@@ -18,7 +18,7 @@ When debugging other approaches to find the correct libraries I attempted to loa
 The metaballs example failed for me.
 fireworks works as does mandlebrot.
 
-* duft/examples
+* dufy/examples
 
 This is not a game but a color mapping display.
 

@@ -39,6 +39,6 @@ author = "Tom Rake"
  weight = "20"
 
 [[menu.main]]
- name = "Report 1"
- url = "/report-01/"
+ name = "Results-1"
+ url = "/results-01/"
  weight = "30"
