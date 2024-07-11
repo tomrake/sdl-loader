@@ -1,0 +1,28 @@
+#+TITLE: Description of Test Cases
+#+DATE: 2024-07-09T21:12:00-04:00
+#+WEIGHT: 60
+
+* What am I testing?
+
+**  the-invaders
+My game and the root and origin of my SDL 1.2 quest.
+
+** lispbuilder examples
+When debugging other approaches to find the correct libraries I attempted to load and run lispbuilder sdl examples, on the assumption that the examples worked.
+
+- lispbuilder-sdl-image-examples
+- lispbuilder-sdl-mixer-examples
+- lispbuilder-sdl-ttf-examples
+
+* lispbuilder-sdl-examples
+The metaballs example failed for me.
+fireworks works as does mandlebrot.
+
+* duft/examples
+
+This is not a game but a color mapping display.
+
+#+begin_src lisp
+  (ql:quickload '(setup-sdl-1-2 dufy/examples))
+  (dufy/examples:draw-srgb-in-munsell)
+#+end_src
