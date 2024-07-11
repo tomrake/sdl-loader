@@ -1,0 +1,12 @@
+#+TITLE: Conclusion
+#+DATE: 2024-07-11T15:45:00-04:00
+#+WEIGHT: 70
+
+* Conclusion
+
+** My Project criteria is met
+** Developer mode tool
+** Production Replacement
+** Model for other dll  groups
+** SDL 2 and SDL 3
+** Linux, Mac, Windows crossplatform
