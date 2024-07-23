@@ -4,7 +4,38 @@
 
 * Conclusion
 
+** The journey so far
+
+*** the-invader a SDL 1.2 game
+I began with experimenting with [[https://github.com/sebity/the-invaders][the-invaders]] a SDL 1.2 game on Windows.
+I used SDL libraries that I found somewhere on the internet.
+To allow CFFI to find those libraries I placed them in the same directory as the .exe files for my lisp.
+
+*** A failed rewrite  under  SDL 2.0
+A week of working on SDL 1.2 code and I tried a rewrite under SDL 2.0 but,
+this lead to frustratio because the lisp interface piece failed to work on Windows.
+
+*** cl-gd under Windows
+[[https://github.com/edicl/cl-gd][cl-gd]] has glue code and does not have a working windows port.
+I abandoned this effort but did learn about the various Windows c libraries and their relationship to msys2 enviroments.
+
+
+*** compilation of sbcl
+I began compilaiton of sbcl, who's monthly source releases. This was mainly to ensure that the c part of sbcl linked with ucrt library.
+
+
+*** A games solution by treating dll files as resource
+I found a gamer who advocated shipping dll files as resources and early binding the libraries using CFFI.
+
+
+
+
+
+Eventually I discovered [[https://github.com/rabbibotton/clog/blob/main/LEARN.md][clog]]
+ which provided dll
 ** My Project criteria is met
+
+
 ** Developer mode tool
 ** Production Replacement
 ** Model for other dll  groups
