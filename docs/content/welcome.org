@@ -1,0 +1,12 @@
+#+TITLE: Welcome
+#+DESCRIPTION: "Welcome to the sdl_loader site."
+#+LAYOUT: "home"
+
+Welcome,
+
+This site is an experiment to define and use standard locations of the sdl 1.2 libraries for  use in Common Lisp games.
+
+When I started experimenting years ago I just downloaded some sdl .dll from some site.
+Today I want to a definite version of  sdl and document the process.
+
+I am revising this site I used this website to document my progress in a step by step manner but after reading this site, I can't follow my notes. So I am organing again.

@@ -30,7 +30,7 @@ author = "Tom Rake"
 
 [[menu.main]]
  name = "Home"
- url = "/"
+ url = "/welcome/"
  weight = "10"
 
 
