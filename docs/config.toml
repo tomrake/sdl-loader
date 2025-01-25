@@ -40,6 +40,11 @@ author = "Tom Rake"
  weight = "20"
 
 [[menu.main]]
- name = "Results-1"
- url = "/results-01/"
+ name = "Blog"
+ url = "/posts/"
  weight = "30"
+
+[[menu.main]]
+ name = "Results-01"
+ url = "/results-01/"
+ weight = "40"
